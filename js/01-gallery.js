@@ -22,7 +22,7 @@ galleryContainer.insertAdjacentHTML("beforeend", markup);
 
 galleryContainer.addEventListener('click', handleGalleryContainerClick);
 
-console.log(instance)
+
 function handleGalleryContainerClick (event){
     event.preventDefault();
     
